@@ -49,9 +49,25 @@ module.exports = function(grunt) {
             options: {
                 mangle: false
             },
-            my_target: {
+            home: {
                 files: {
                     'app/js/hp.home.min.js':
+                    [
+                      'source/js/home/jquery-2.0.0.min.js',
+                      'source/js/home/Default1.js',
+                      'source/js/home/bootstrap.js',
+                      'source/js/home/lightslider.js',
+                      'source/js/home/common.js',
+                      'source/js/home/Jquery-1.8.0.js',
+                      'source/js/home/jquery-ui.js',
+                      'source/js/home/bootstrap2.js',
+                      'source/js/home/bootstrap-multiselect.js'
+                    ]
+                }
+            },
+            citypage: {
+                files: {
+                    'app/js/hp.citypage.min.js':
                     [
                       'source/js/home/jquery-2.0.0.min.js',
                       'source/js/home/Default1.js',
@@ -116,7 +132,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-open');
 
-    grunt.registerTask('test', ['sass', 'cssmin', 'uglify']);
+    grunt.registerTask('home', ['uglify:home']);
     // grunt.registerTask('server', ['express','watch']);
     grunt.registerTask('default', ['uglify', 'connect:livereload', 'open', 'watch']);
 
