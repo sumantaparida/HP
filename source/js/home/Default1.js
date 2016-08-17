@@ -1,4 +1,4 @@
-
+﻿
 $(document).ready(function () {
 
     var windowsize = $(window).width();

@@ -1,4 +1,4 @@
-$(document).ready(function () {
+﻿$(document).ready(function () {
     $("#txtReqName").blur(function () {
         if ($.trim($("#txtReqName").val()) == "") {
             $("#txtReqName").addClass("error");

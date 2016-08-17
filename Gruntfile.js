@@ -54,14 +54,12 @@ module.exports = function(grunt) {
                     'app/js/hp.home.min.js':
                     [
                       'source/js/home/jquery-2.0.0.min.js',
-                      'source/js/home/Default1.js',
-                      'source/js/home/bootstrap.js',
-                      'source/js/home/lightslider.js',
-                      'source/js/home/common.js',
                       'source/js/home/Jquery-1.8.0.js',
                       'source/js/home/jquery-ui.js',
-                      'source/js/home/bootstrap2.js',
-                      'source/js/home/bootstrap-multiselect.js'
+                      'source/js/home/bootstrap.js',
+                      'source/js/home/lightslider.js',
+                      'source/js/home/bootstrap-multiselect.js',
+                      'source/js/home/common.js'
                     ]
                 }
             },
