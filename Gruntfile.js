@@ -96,28 +96,15 @@ module.exports = function(grunt) {
                 files: {
                     'app/js/hp.search.min.js':
                     [
-                      'source/js/citypage/Jquery-1.8.0.js',
-                      'source/js/citypage/jquery-ui.js',
-                      'source/js/citypage/jquery.easing.min.js',
-                      'source/js/citypage/jquery.easy-ticker.js',
-                      'source/js/citypage/bannerscollection_zoominout.js',
-                      'source/js/citypage/jquery.ui.touch-punch.min.js',
-                      'source/js/citypage/jquery_cookie.js',
-                      'source/js/citypage/jquery.balloon.min.js',
-                      'source/js/citypage/HomeSearchScript.js',
-                      'source/js/citypage/Default.js',
-                      'source/js/citypage/modernizr.js',
-                      'source/js/citypage/prettyphoto.js',
-                      'source/js/citypage/owl.carousel.min.js',
-                      'source/js/citypage/jquery.flexslider.js',
-                      'source/js/citypage/helper-plugins.js',
-                      'source/js/citypage/bookmarkscroll.js',
-                      'source/js/citypage/waypoints.js',
-                      'source/js/citypage/init.js',
-                      //'source/js/citypage/jquery_cookie.js',
-                      'source/js/citypage/bootstrap.js',
-                      'source/js/citypage/bootstrap-multiselect.js',
-                      'source/js/citypage/HomePopup.js'
+                      'source/js/search/Jquery-1.8.0.js',
+                      'source/js/search/retina-1.js',
+                      'source/js/search/jshashtable-2.js',
+                      'source/js/search/jquery_002.js',
+                      'source/js/search/tmpl.js',
+                      'source/js/search/jquery.js',
+                      'source/js/search/draggable-0.js',
+                      'source/js/search/jquery_003.js',
+                      'source/js/search/custom.js'
                     ]
                 }
             }
